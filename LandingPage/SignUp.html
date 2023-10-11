@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/Hover-master/css/hover.css" />
+
+   
+  </head>
+  <body>
+    <div class="login_page_container">
+      <div class="left_side_login_page_container"></div>
+      <div class="right_side_login_page_container">
+        <div>
+          <p>Sign Up</p>
+          <form class="form_login_container">
+            <div class="input_label_login_container width_half_container">
+              <label for="fname">First name </label><br />
+              <input id="fname" type="text" placeholder="Enter first name" />
+            </div>
+            <div class="input_label_login_container width_half_container">
+                <label for="lname">Last name </label><br />
+                <input id="lname" type="text" placeholder="Enter last name" />
+              </div>
+            <div class="input_label_login_container width_half_container">
+                <label for="email">Email </label><br />
+                <input id="email" type="email" placeholder="Enter email" />
+              </div>
+              <div class="input_label_login_container width_half_container">
+                <label for="pno">Phone no. </label><br />
+                <input id="pno" type="number" placeholder="Enter number" />
+              </div>
+            <div class="input_label_login_container width_half_container">
+              <label for="pwd">Password </label><br />
+              <input id="pwd" type="password" placeholder="Enter password" />
+            </div>
+            <div class="input_label_login_container width_half_container ">
+                <label for="repwd">Re-Password </label><br />
+                <input id="repwd" type="password" placeholder="Enter password" />
+              </div>
+
+            <div class="checkbox_forgot_container checkbox_forgot_container1">
+              <div>
+                <input
+                  type="checkbox"
+                  id="keep"
+                  name="keepMeLogIn"
+                  value="Bike"
+                />
+                <label for="keep">Keep me logged in</label><br />
+              </div>
+              <a>Forgot password?</a>
+            </div>
+
+            <button>Log in</button>
+          </form>
+          <div class="extra_content_login_container">
+            <p>Already have an account? <a href="./Login.html">Sign In</a></p>
+
+            <div class="or_with_container">
+              <div></div>
+              <span>or continue with</span>
+              <div></div>
+            </div>
+
+            <div class="btn_log_in_container">
+              <button>
+                <img src="./assets/google.png" alt="google" loading="lazy" />
+              </button>
+              <button>
+                <img
+                  src="./assets/facebook.png"
+                  alt="facebook"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/hero-section.css" />
+  <link rel="stylesheet" href="./css/exclusive-slider-section.css" />
+  <link rel="stylesheet" href="./css/customer-review-section.css" />
+  <link rel="stylesheet" href="./css/contact-us-section.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+  <link rel="stylesheet" href="./css/Hover-master/css/hover.css" />
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  
+</head>
+<body>
+  <header>
+    <!-- navbar start -->
+    <div class="title_cart_icons_container">
+      <p>UNISEX T-SHIRT</p>
+      <div class="search_cart_avtar_container">
+        <div>
+          <img
+          src="./assets/search_icon.svg"
+          loading="lazy"
+          alt="searchImg"
+          />
+        </div>
+        <button>
+          <div>
+            <img src="./assets/cart_icon.svg" loading="lazy" alt="cartImg" />
+          </div>
+          <p>15</p>
+        </button>
+        <button>
+          <img
+          src="./assets/profile_img.png"
+          loading="lazy"
+          alt="profileImg"
+          />
+        </button>
+      </div>
+    </div>
+    
+    <nav class="logo_menu_contianer">
+      <div class="checkbox_menu_logo_container">
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu_btn" onClick="toggleMenu()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+        <div class="logo_name">
+          <img
+          src="./assets//the_sequenz_logo.png"
+          loading="lazy"
+          alt="logoImg"
+          />
+        </div>
+      </div>
+      
+      <div
+      class="search_cart_avtar_container small_screen_search_cart_avtar_container"
+      >
+      <button>
+        <div>
+          <img src="./assets/cart_icon.svg" loading="lazy" alt="cartImg" />
+        </div>
+        <p>15</p>
+      </button>
+      <button>
+        <img
+        src="./assets/profile_img.png"
+        loading="lazy"
+        alt="profileImg"
+        />
+      </button>
+    </div>
+    
+    <!-- <div class="search_cart_avtar_container">
+      <div>
+        <img src="./assets/search_icon.svg" loading="lazy" />
+      </div>
+      <button>
+        <div>
+          <img src="./assets/cart_icon.svg" loading="lazy" />
+        </div>
+        <p>15</p>
+      </button>
+      <button>
+        <img src="./assets/profile_img.png" loading="lazy" />
+      </button>
+    </div> -->
+    <ul class="navs_container">
+      <div class="search_small_container sm_screen_search_small_container">
+        <div>
+          <img src="./assets/search_icon.svg" loading="lazy" alt="search" />
+        </div>
+        <input type="text" placeholder="Search here ..." />
+      </div>
+      <li class="hvr-underline-from-center">Home</li>
+      <li class="hvr-underline-from-center">Shop</li>
+      <li class="hvr-underline-from-center">About Us</li>
+      <li class="hvr-underline-from-center">Contact Us</li>
+    </ul>
+  </nav>
+  
+  <!-- navbar end -->
+</header>
+
+<!-- hero image section -->
+
+<section>
+  <div class="hero_img_slider_container">
+    <div class="swiper heroSlider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assets/hero_img.png" loading="lazy" alt="posterImg" />
+        </div>
+        <div class="swiper-slide">
+          <img
+          src="./assets//hero_img1.jpg"
+          loading="lazy"
+          alt="posterImg"
+          />
+        </div>
+      </div>
+      <button class="swiper-button-next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </button>
+      <button class="swiper-button-prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+      </button>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<!-- hero image section end -->
+
+<!-- slider section -->
+<section>
+  <div class="marquee_text_container">
+    <div class="scroll-container">
+      <div class="scroll-text">
+        <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+        <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+        <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+        <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+        
+      </div>
+    </div>
+  </section>
+  <!-- slider section end -->
+  
+  
+  
+  <!-- exclusive section -->
+  <section class="same_width_container">
+    <div class="exclusive_tshirt_slider_container">
+      <p>EXCLUSIVE   T-SHIRTS</p>
+      
+      <div class="subtitle_two_aerrow_container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing onsectetur adipisicing elit.</p>
+        <!-- <div>  
+          <button class="left_btn_slider">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </button>
+          <button class="right_btn_slider">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </button>
+        </div>         -->
+      </div>
+      <div class="resposive_product_container">
+        <div class="product_img_details_container">
+          <div class="product_img_container">
+            <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+          </div>
+          <div class="product_details_container">
+            <p>Oversized</p>
+            <p>Oversized T-shirt Black  Model no..</p>
+            <p>₹ 799 <label>₹ 1099</label></p>
+          </div>
+        </div>
+        <div class="product_img_details_container">
+          <div class="product_img_container">
+            <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+          </div>
+          <div class="product_details_container">
+            <p>Oversized</p>
+            <p>Oversized T-shirt Black  Model no..</p>
+            <p>₹ 799 <label>₹ 1099</label></p>
+          </div>
+        </div>
+        <div class="product_img_details_container">
+          <div class="product_img_container">
+            <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+          </div>
+          <div class="product_details_container">
+            <p>Oversized</p>
+            <p>Oversized T-shirt Black  Model no..</p>
+            <p>₹ 799 <label>₹ 1099</label></p>
+          </div>
+        </div>
+        <div class="product_img_details_container">
+          <div class="product_img_container">
+            <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+          </div>
+          <div class="product_details_container">
+            <p>Oversized</p>
+            <p>Oversized T-shirt Black  Model no..</p>
+            <p>₹ 799 <label>₹ 1099</label></p>
+          </div>
+        </div>
+        <div class="product_img_details_container">
+          <div class="product_img_container">
+            <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+          </div>
+          <div class="product_details_container">
+            <p>Oversized</p>
+            <p>Oversized T-shirt Black  Model no..</p>
+            <p>₹ 799 <label>₹ 1099</label></p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+  <!-- exclusive section end -->
+  
+  
+  <!-- slider section -->
+  <section>
+    <div class="marquee_text_container">
+      <div class="scroll-container">
+        <div class="scroll-text">
+          <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+          <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+          <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+          <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+          
+        </div>
+      </div>
+    </section>
+    <!-- slider section end -->
+    
+    
+    <!-- best seller section -->
+    <section class="same_width_container">
+      <div class="exclusive_tshirt_slider_container">
+        <p>BESTSELLER   T-SHIRTS</p>
+        
+        <div class="subtitle_two_aerrow_container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing onsectetur adipisicing elit.</p>
+          <!-- <div>  
+            <button class="left_btn_slider">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </button>
+            <button class="right_btn_slider">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </button>
+          </div>         -->
+        </div>
+        <div class="resposive_product_container">
+          <div class="product_img_details_container">
+            <div class="product_img_container">
+              <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+            </div>
+            <div class="product_details_container">
+              <p>Oversized</p>
+              <p>Oversized T-shirt Black  Model no..</p>
+              <p>₹ 799 <label>₹ 1099</label></p>
+            </div>
+          </div>
+          <div class="product_img_details_container">
+            <div class="product_img_container">
+              <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+            </div>
+            <div class="product_details_container">
+              <p>Oversized</p>
+              <p>Oversized T-shirt Black  Model no..</p>
+              <p>₹ 799 <label>₹ 1099</label></p>
+            </div>
+          </div>
+          <div class="product_img_details_container">
+            <div class="product_img_container">
+              <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+            </div>
+            <div class="product_details_container">
+              <p>Oversized</p>
+              <p>Oversized T-shirt Black  Model no..</p>
+              <p>₹ 799 <label>₹ 1099</label></p>
+            </div>
+          </div>
+          <div class="product_img_details_container">
+            <div class="product_img_container">
+              <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+            </div>
+            <div class="product_details_container">
+              <p>Oversized</p>
+              <p>Oversized T-shirt Black  Model no..</p>
+              <p>₹ 799 <label>₹ 1099</label></p>
+            </div>
+          </div>
+          <div class="product_img_details_container">
+            <div class="product_img_container">
+              <img src="./assets/prod2.png" loading="lazy" alt="productImg" />
+            </div>
+            <div class="product_details_container">
+              <p>Oversized</p>
+              <p>Oversized T-shirt Black  Model no..</p>
+              <p>₹ 799 <label>₹ 1099</label></p>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+    <!-- best seller section end -->
+    
+    
+    
+    <!-- customer review section -->
+    <section class="same_width_container">
+      <div class="exclusive_tshirt_slider_container customer_review_container">
+        <p>CUSTOMER REVIEW</p>
+        <label>#SATISFIEDITEM</label>
+      </div>
+      
+      <div class="container">
+        
+        <div class="customer_review_slider">
+          
+          <div>
+            <div class="review_perslider_container">
+              <p>Keeps its shape, doesn't stretch out. Looks great and feels great. The fit is perfect. I was nervous buying a women's tee (I mostly buy men's or unisex .</p>
+              <p>- Smith Witch</p>
+            </div>
+          </div>
+          <div>
+            <div class="review_perslider_container">
+              <p>Keeps its shape, doesn't stretch out. Looks great and feels great. The fit is perfect. I was nervous buying a women's tee (I mostly buy men's or unisex .</p>
+              <p>- Smith Witch</p>
+            </div>
+          </div>
+          <div>
+            <div class="review_perslider_container">
+              <p>Keeps its shape, doesn't stretch out. Looks great and feels great. The fit is perfect. I was nervous buying a women's tee (I mostly buy men's or unisex .</p>
+              <p>- Smith Witch</p>
+            </div>
+          </div>
+          
+          
+        </div>
+        <ul class="control prev_next_btn_container review_left_right_btn_container" id="custom-control">
+          <li class="prev">
+            <img src="./assets/left_aerrow.svg" alt="left_aerrow" loading="lazy" />
+          </li>
+          <li class="next">
+            <img src="./assets/right_aerrow.svg" alt="right_aerrow" loading="lazy" />
+          </li>
+        </ul>
+      </div>
+      
+    </section>
+    
+    <!-- customer review section end -->
+    
+    
+    <!-- contact us section start -->
+    
+    
+    <section class="same_width_container">
+      <div class="contact_us_container">
+        <div class="contact_us_left_container">
+          <div class="contact_us_star_img_container">
+            <img src="./assets/contact_star.svg" alt="starImg" loading="lazy" />
+          </div>
+          <p>WE’D LOVE TO HERE FROM YOU</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing.</p>
+          <div class="contact_tshirt_img_container">
+            <img src="./assets/tshirts_img.png" alt="tshirtImg" loading="lazy" />
+          </div>
+          <div class="contact_us_star2_img_container">
+            <img src="./assets/contact_star.svg" alt="starImg" loading="lazy" />
+          </div>
+        </div>
+        <div class="contact_us_right_container">
+          <div class="contact_us_star_img_container visibility_none">
+            <img src="./assets/contact_star.svg" alt="starImg" loading="lazy" />
+          </div>
+          <p>Contact Us</p>
+          
+          <form class="contact_us_form_container">
+            <div class="input_label_container">
+              <label for="firstName">
+                First name
+              </label> <br/>
+              <input id="firstName" type="text" placeholder="Enter name" />
+            </div>
+            <div class="input_label_container">
+              <label for="lastName">
+                Last name
+              </label><br/>
+              <input id="lastName" type="text" placeholder="Enter last name" />
+            </div>
+            <div class="input_label_container">
+              <label for="email">
+                Email 
+              </label><br/>
+              <input id="email" type="email" placeholder="Enter email" />
+            </div>
+            <div class="input_label_container">
+              <label for="phoneNo">
+                Phone no.
+              </label><br/>
+              <input id="phoneNo" type="text" placeholder="Enter phone no. " />
+            </div>
+            <div class="input_label_container textarea_label_container">
+              <label for="message">
+                Message
+              </label><br/>
+              <textarea type="text" id="message" placeholder="Enter message" name="message" rows="3" cols="50" ></textarea>
+            </div>
+            
+            <button type="submit">Submit</button>
+          </form>
+          <div class="contact_us_star_img_container">
+            <img src="./assets/contact_star.svg" alt="starImg" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!-- contact us section end -->
+    
+    
+    <!-- slider section -->
+    <section>
+      <div class="marquee_text_container">
+        <div class="scroll-container">
+          <div class="scroll-text">
+            <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+            <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+            <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+            <p>SALE  UP  TO  50% <img src="./assets/star.svg" alt="50%Off" loading="lazy" /></p>
+            
+          </div>
+        </div>
+      </section>
+      <!-- slider section end -->
+      
+      
+      <!-- footer section start  -->
+      <footer class="same_width_container footer_main_container">
+        <div class="footer_logo_container">
+          <img src="./assets/the_sequenz_logo.png" loading="lazy" alt="logo" />
+        </div>
+        <div class="footer_container">
+          <div class="first_container">
+            <p>CUSTOMER CARE</p>
+            <a>Privacy & Policy</a>
+            <a>Terms & Condition</a>
+            <a>Shiping Info & Return</a>
+            <a>FAQ</a>
+            
+          </div>
+          <div class="first_container">
+            <p>NAVIGATION</p>
+            <a>Home</a>
+            <a>Shop</a>
+            <a>Contact Us</a>
+            <a>About Us</a>
+          </div>
+          <div class="first_container">
+            <p>SOCIAL MEDIA</p>
+            <a><span><i class="fa fa-instagram" aria-hidden="true"></i>
+            </span>clothes.store</a>
+            <a><span><i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </span>clothes.store@gmail.com</a>
+          </div>
+          <div class="first_container">
+            <p>CONTACT US</p>
+            <a><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+            </span>2118 Thornridge Cir. Syracuse, Connecticut 35624</a>
+            <a><span><i class="fa fa-phone" aria-hidden="true"></i>
+            </span>+91 7979433378</a>
+            
+          </div>
+          
+        </div>
+      </footer>
+      <!-- footer section end  -->
+      
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+      
+      <script
+      src="https://kit.fontawesome.com/b7ecb94de9.js"
+      crossorigin="anonymous"
+      ></script>
+      <script src="./Home.js"></script>
+    </body>
+    </html>
+    

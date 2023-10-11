@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: archivoReg;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+img {
+  max-width: 100%;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: $primary-color;
+  background: var(--green);
+}
+
+::selection {
+    color: $primary-color;
+  background: var(--green);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

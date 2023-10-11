@@ -1,0 +1,54 @@
+/* archivo font */
+
+@font-face {
+    font-family: "archivoReg";
+    src: url('./assets/archivo/Archivo-Regular.otf');
+}
+
+@font-face {
+    font-family: "archivoMed";
+    src: url('./assets/archivo/Archivo-Medium.otf');
+}
+
+@font-face {
+    font-family: "archivoSemiBold";
+    src: url('./assets/archivo/Archivo-SemiBold.otf');
+}
+
+@font-face {
+    font-family: "archivoBold";
+    src: url('./assets/archivo/Archivo-Bold.otf');
+}
+
+@font-face {
+    font-family: "archivoExBold";
+    src: url('./assets/archivo/Archivo-ExtraBold.otf');
+}
+
+
+@font-face {
+    font-family: "archivoExBold";
+    src: url('./assets/archivo/Archivo-ExtraBold.otf');
+}
+
+/* // clash font */
+
+@font-face {
+    font-family: "clashReg";
+    src: url('./assets/clash/ClashDisplay-Regular.otf');
+}
+
+@font-face {
+    font-family: "clashMed";
+    src: url('./assets/clash/ClashDisplay-Medium.otf');
+}
+
+@font-face {
+    font-family: "clashSemiBold";
+    src: url('./assets/clash/ClashDisplay-Semibold.otf');
+}
+
+@font-face {
+    font-family: "clashBold";
+    src: url('./assets/clash/ClashDisplay-Bold.otf');
+}
