@@ -1,0 +1,21 @@
+.width_half_container{
+    width: 48% !important;
+}
+.form_login_container {
+    color: var(--white-color);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.checkbox_forgot_container1{
+    width: 100%;
+}
+
+
+@media (max-width:767px) {
+    .width_half_container{
+        width: 100% !important;
+    }
+}

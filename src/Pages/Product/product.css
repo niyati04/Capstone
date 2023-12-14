@@ -1,0 +1,363 @@
+.main{
+    color: var(--white-color);
+}
+img {
+    max-width: 100%;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 0 auto;
+    gap: 5px;
+    max-width: 1200px;
+    /* border: 1px solid var(--white-color); */
+}
+
+/* .box-grid > * {
+    border:5px solid red !important;
+} */
+
+.sub-contianer1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.sub-contianer2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    flex-flow: row wrap;
+    padding: 10px;
+    grid-area: 2/1/3/2;
+    margin-bottom: 10px;
+}
+
+.sub-contianer2 h3 {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    flex-basis: 100%;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    /* Remove default margin */
+}
+
+.sub-contianer2 h1 {
+    margin: 0;
+    flex-basis: 100%;
+    /* Remove default margin */
+}
+
+.sub-sub-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+
+.review-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.dashed-line {
+    width: 100%;
+    /* Adjust the width as needed */
+    border-bottom: 1px dashed var(--white-color);
+    /* Adjust the border style as needed */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.color-box {
+    width: 100%;
+    height: 75%;
+}
+
+.var(--white-color) {
+    background-color: var(--white-color);
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
+
+span {
+    display: block;
+    padding: 10px;
+}
+
+.sub-container3 {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    height: fit-content;
+    grid-area: 3/1/5/2;
+    /* flex-flow: row wrap; */
+    padding: 10px;
+}
+
+.size-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px 20px 0;
+    gap: 10px;
+}
+
+.boxx {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sub-container4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    height: fit-content;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 150px 0;
+    grid-area: 3/1/8/2;
+}
+
+.sub-container4 h3 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container4 p {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    height: fit-content;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 75px 0;
+    grid-area: 2/2/7/4;
+}
+
+.sub-container6 h3 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container6 p {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container7 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    height: fit-content;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 220px 0;
+
+    grid-area: 2/2/7/4;
+}
+
+.sub-container7 h3 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container7 p {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    text-align: start;
+    height: fit-content;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 340px 0;
+    grid-area: 2/2/8/4;
+    padding: 23px 10px;
+
+}
+
+.sub-container5 h3 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+    padding: 5px 0;
+}
+
+.sub-container5 p {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.sub-container5-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    white-space: nowrap;
+    gap: 5px;
+}
+
+.sub-container5-profile p {
+    justify-self: end;
+    margin-left: 250px;
+}
+
+.sub-container8 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--white-color) !important;
+    border-radius: 5px;
+    text-align: start;
+    height: fit-content;
+    flex-flow: row wrap;
+    padding: 10px;
+    grid-area: 2/2/8/4;
+}
+
+.sub-container8 button {
+    font-weight: 600;
+    color: var(--white-color);
+    background-color: #FE7B01;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sub-contianer2 button {
+    color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .box-grid {
+        max-width: 800px;
+        padding: 1rem;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .sub-container4 {
+        margin: 0.5rem;
+    }
+
+    .sub-container6 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container7 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container5 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container5-profile p {
+        margin-left: 170px;
+    }
+
+
+}
+
+@media (max-width: 1025px) {
+    .box-grid {
+        max-width: 1200px;
+        display: flex;
+        flex-flow: column;
+        gap: 0 2rem;
+    }
+
+    .sub-container4 {
+        margin: 0.5rem;
+    }
+
+    .sub-container6 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container7 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container5 {
+        margin: 0.5rem 0;
+    }
+
+    .sub-container5-profile p {
+        margin-left: 170px;
+    }
+
+    .sub-contianer2 h1 {
+        flex-basis: 37%;
+    }
+
+    .sub-sub-container2 {
+        gap: 194px;
+        padding-left: 99px;
+
+    }
+
+    .sub-container8 {
+        gap: 25rem;
+    }
+}

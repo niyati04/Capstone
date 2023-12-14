@@ -1,0 +1,148 @@
+.customer_review_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer_review_container label {
+  font-family: 'clashMed';
+  color: var(--white-color);
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.review_perslider_container {
+  position: relative;
+  padding: 4rem 0;
+
+}
+
+.review_perslider_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../../../assets/circle_review.svg");
+}
+
+.customer_review_slider {
+  margin: 5rem 0 3rem;
+}
+
+.review_perslider_container p {
+  z-index: 1;
+  color: var(--white-color);
+  text-align: justify;
+  font-family: ArchivoReg;
+  font-size: 1.3rem;
+  line-height: 125.8%;
+}
+
+.review_perslider_container p:first-child {
+  margin: 0 0 1rem 2rem;
+}
+
+.review_perslider_container p:last-child {
+  text-align: end;
+  font-size: 1.2rem;
+  font-family: ArchivoSemiBold;
+
+}
+
+.review_left_right_btn_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tns-nav {
+  display: none;
+}
+
+
+@media (max-width:767px) {
+  .review_perslider_container {
+    padding: 2.2rem 0;
+  }
+
+  .review_perslider_container::before {
+    top: 0;
+    left: 0.1rem;
+    width: 55px;
+    height: 55px;
+  }
+
+  .customer_review_container {
+
+    flex-direction: column;
+  }
+
+  .customer_review_container label {
+    font-size: 1.2rem;
+  }
+
+
+
+  .review_perslider_container p {
+    font-size: 1.1rem;
+  }
+
+  .review_perslider_container p:last-child {
+    text-align: end;
+    font-size: 1rem;
+  }
+
+  .review_left_right_btn_container li img {
+    width: 2.3rem;
+  }
+
+  .customer_review_slider {
+    margin: 5rem 0 1.5rem;
+  }
+}
+
+@media (min-width:767px) and (max-width:991px) {
+  .tns-nav {
+    display: none;
+  }
+
+  .review_perslider_container {
+    padding: 2.5rem 0;
+  }
+
+  .review_perslider_container::before {
+    top: 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  .review_perslider_container p {
+    font-size: 1.1rem;
+    line-height: 125.8%;
+  }
+
+  .review_left_right_btn_container li img {
+    width: 2.4rem;
+  }
+
+  .customer_review_slider {
+    margin: 5rem 0 2rem;
+  }
+}
+
+@media (min-width:991px) and (max-width:1199px) {
+  .review_perslider_container {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (min-width:1200px) {
+  .review_perslider_container {
+    padding: 3.5rem 0;
+  }
+}

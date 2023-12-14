@@ -1,0 +1,203 @@
+.contact_us_container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black-color);
+    border-radius: 8px;
+}
+
+.contact_us_left_container,
+.contact_us_right_container {
+    width: 50%;
+    padding: 2rem;
+    color: var(--white-color)
+}
+
+.contact_us_left_container {
+    background-color: var(--primary-color);
+    border: 1px solid var(--white-color);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.contact_us_star_img_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact_us_left_container p {
+    font-size: 3rem;
+    font-family: clashSemiBold;
+
+}
+
+.contact_us_left_container p:last-of-type {
+    font-size: 18px;
+    font-family: 'archivoReg';
+    line-height: 28px;
+}
+
+.contact_tshirt_img_container {
+    margin: 1rem 0;
+}
+
+.contact_us_star2_img_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_us_right_container {
+    padding: 2rem 3rem !important;
+}
+
+.contact_us_form_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem 0;
+    margin: 1.5rem 0px;
+}
+
+.contact_us_right_container p:first-of-type {
+    font-size: 2.5rem;
+    font-family: 'clashSemiBold';
+    text-transform: uppercase;
+}
+
+.input_label_container {
+    width: 49%;
+}
+
+.input_label_container label {
+    font-size: 1.2rem;
+}
+
+.input_label_container input,
+.textarea_label_container textarea {
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 1.1rem;
+
+    border-bottom: 1px solid var(--white-color);
+    font-family: 'archivoReg';
+    width: 90%;
+    color: var(--white-color);
+}
+
+.input_label_container input::placeholder,
+.textarea_label_container textarea::placeholder {
+    color: #afafaf;
+    opacity: 1;
+    /* Firefox */
+    font-size: small;
+}
+
+.textarea_label_container {
+    width: 100%;
+}
+
+.textarea_label_container textarea {
+    width: 94% !important;
+}
+
+.contact_us_form_container button {
+    padding: 0.5rem 2rem;
+    font-family: 'archivoMed';
+    background: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.visibility_none {
+    visibility: hidden !important;
+}
+
+
+@media (max-width:767px) {
+    .contact_us_container {
+
+        flex-direction: column;
+
+    }
+
+    .contact_us_left_container,
+    .contact_us_right_container {
+        width: 100%;
+        padding: 1.5rem
+    }
+
+    .contact_us_left_container p {
+        font-size: 2rem;
+    }
+
+    .contact_us_left_container p:last-of-type {
+        font-size: 16px;
+
+        line-height: 22px;
+        margin: 0.3rem 0;
+    }
+
+    .contact_us_right_container {
+        padding: 2rem 1.5rem 1rem !important;
+    }
+
+    .visibility_none {
+        display: none !important;
+    }
+
+    .input_label_container {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:767px) and (max-width:991px) {
+    .contact_us_form_container {
+        
+        gap: 1rem 10px;
+    }
+    .contact_us_star_img_container,.contact_us_star2_img_container {
+        
+        height: 50px;
+    }
+    .contact_us_left_container p {
+        font-size: 2rem;
+    }
+    .contact_us_left_container p:last-of-type {
+        font-size: 13px;
+        line-height: 19px;
+    }
+  .contact_us_right_container p:first-of-type {
+    font-size: 1.8rem;
+  }
+  .input_label_container label {
+    font-size: 1rem;
+  }
+  .input_label_container input, .textarea_label_container textarea {
+  
+    font-size: .8rem;
+    width: 100%;
+  }
+  .input_label_container {
+    width: 48%;
+}
+.textarea_label_container textarea {
+    width: 100% !important;
+}
+.textarea_label_container {
+    width: 100% !important;
+}
+.contact_us_right_container {
+    padding: 1rem 2rem !important;
+}
+.contact_tshirt_img_container {
+    margin: 2.8rem 0;
+}
+}
+
+@media (min-width:991px) {}
+
+@media (min-width:1199px) {}

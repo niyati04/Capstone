@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #212121;
+    --black-color: #1E1E1E;
+    --green-color: #C6F24B;
+    --white-color: #ffffff;
+}
+
+body {
+    font-family: archivoReg;
+    background-color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+img {
+    max-width: 100%;
+}
+.no_border{
+    border: 0 !important;
+}
+.no_margin{
+    margin: 0 auto !important;
+}
+button{
+    cursor: pointer;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--primary-color);
+    background: var(--green-color);
+}
+
+::selection {
+    color: var(--primary-color);
+    background: var(--green-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+
+
+}
+
+.same_width_container{
+    margin: 4rem auto;
+    width: 100%;
+}
+
+
+@media (max-width:767px) {
+    .same_width_container{
+       width: 90%;
+       margin: 2rem auto;
+    }
+}
+
+@media (min-width:767px) {
+    .same_width_container{
+       
+        width:700px;
+    }
+}
+
+@media (min-width:991px) {
+    .same_width_container{
+       
+        width:900px;
+    }
+}
+
+@media (min-width:1199px) {
+    .same_width_container{
+       
+        width:1100px;
+    }
+}

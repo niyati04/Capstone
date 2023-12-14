@@ -1,0 +1,301 @@
+.login_page_container {
+    display: flex;
+}
+
+.left_side_login_page_container {
+    background-image: url('../../assets/bg_login.jpg');
+    background-position: center;
+    width: 40%;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.right_side_login_page_container {
+    width: 60%;
+}
+
+.right_side_login_page_container>div {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right_side_login_page_container>div>p {
+    font-family: clashSemiBold;
+    color: var(--white-color);
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.form_login_container {
+    color: var(--white-color);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.input_label_login_container {
+    width: 100%;
+}
+
+.input_label_login_container label {
+    font-family: archivoMed;
+    font-size: 1rem;
+}
+
+.input_label_login_container input {
+    background-color: transparent;
+    font-family: archivoReg;
+    font-size: .9rem;
+    border: 0;
+    color: var(--white-color);
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.input_label_login_container input::placeholder{
+    color: #afafaf;
+}
+.checkbox_forgot_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox_forgot_container input {
+    font-family: archivoMed;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.checkbox_forgot_container label {
+    font-family: archivoMed;
+    font-size: 1.2rem;
+    color: #a8a8a8;
+}
+
+.checkbox_forgot_container a {
+    font-family: archivoMed;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.form_login_container button {
+    width: 100%;
+    background: var(--green-color);
+    color: var(--primary-color);
+    font-family: 'archivoSemiBold';
+    font-size: 1.2rem;
+    border: 0;
+    padding: 0.5rem 0;
+    outline: none;
+}
+
+.extra_content_login_container {
+    color: var(--white-color);
+
+}
+
+.extra_content_login_container p {
+    color: #a8a8a8;
+}
+
+.extra_content_login_container a {
+    color: var(--white-color);
+
+}
+
+.or_with_container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 2rem 0 3rem;
+}
+
+.or_with_container div:first-child {
+    position: absolute;
+    width: 35%;
+    left: 0;
+    height: 1px;
+    /* Adjust the line thickness as needed */
+    background-color: #a8a8a8;
+    /* Adjust the line color as needed */
+    top: 50%;
+    /* transform: translateY(-50%); */
+
+}
+
+.or_with_container div:last-child {
+    position: absolute;
+    width: 35%;
+    right: 0;
+    height: 1px;
+    /* Adjust the line thickness as needed */
+    background-color: #a8a8a8;
+    /* Adjust the line color as needed */
+    top: 50%;
+    /* transform: translateY(-50%); */
+
+}
+
+.or_with_container span {
+    z-index: 2;
+    font-size: 1.2rem;
+    font-family: 'archivoReg';
+    color: #a8a8a8;
+}
+
+.btn_log_in_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn_log_in_container button {
+    outline: none;
+    border: 1px solid #a8a8a8;
+    padding: .5rem;
+    width: 50px;
+    background-color: transparent;
+}
+
+
+
+@media (max-width:767px) {
+    .left_side_login_page_container {
+        display: none;
+    }
+
+    .right_side_login_page_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .right_side_login_page_container>div {
+        margin:2rem 0;
+        gap: 1.5rem;
+    }
+
+    .right_side_login_page_container>div>p {
+
+        font-size: 2rem;
+    }
+
+    .input_label_login_container label {
+        font-size: 1rem;
+    }
+
+    .input_label_login_container input {
+        font-size: .8rem;
+    }
+
+    .checkbox_forgot_container label {
+        font-size: .8rem;
+    }
+
+    .checkbox_forgot_container input,
+    .checkbox_forgot_container a {
+        font-size: .8rem;
+    }
+
+    .extra_content_login_container p {
+        font-size: .8rem;
+    }
+
+    .form_login_container button {
+        padding: .3rem 0;
+        font-size: 1rem;
+    }
+
+    .or_with_container span,
+    .extra_content_login_container a {
+            
+            font-size: .8rem;
+        }
+        .or_with_container div:first-child , .or_with_container div:last-child {
+            width: 26%;
+        }
+        .btn_log_in_container button {
+            padding: 0.4rem;
+            width: 36px;
+        }
+    }
+
+
+    @media (min-width:767px) and (max-width:991px) {
+        .right_side_login_page_container>div {
+            margin: 2rem;
+            gap: 1rem;
+        }
+        .right_side_login_page_container>div>p {
+            font-size: 2.4rem;
+        }
+        .input_label_login_container label , .checkbox_forgot_container label  {
+            font-size: .9rem;
+        }
+        .input_label_login_container input  {
+            font-size: .9rem;
+        }
+        .checkbox_forgot_container a {
+            font-size: .9rem;
+        }
+        .form_login_container button {
+          
+            font-size: 1rem;
+        }
+        .extra_content_login_container a {
+            font-size: .9rem;
+        }
+        .or_with_container div:first-child , .or_with_container div:last-child {
+          
+            width: 25%;
+            height: 1px;
+        }
+        .or_with_container span {
+            font-size: 1rem;
+        }
+        .btn_log_in_container button {
+            padding: 0.5rem;
+            width: 40px;
+
+        }
+    }
+
+    @media (min-width:991px) and (max-width:1199px) {
+        .right_side_login_page_container>div {
+            margin: 3rem;
+            gap: 2rem;
+        }
+    }
+
+    @media (min-width:1199px){
+        .right_side_login_page_container>div {
+            margin: 5rem;
+            gap: 2rem;
+        }
+        .input_label_login_container input {
+            font-size: .9rem;
+        }
+    }
+
+    @media (min-width:1400px){
+        .right_side_login_page_container>div {
+            gap: 2rem;
+            width: 700px;
+            margin: 5rem auto;
+        }
+        .left_side_login_page_container {
+    
+       
+            width: 40%;
+            min-height: 100vh;
+         
+        }
+    }

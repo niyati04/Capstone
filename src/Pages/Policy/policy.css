@@ -1,0 +1,41 @@
+.policy_container {
+    margin: 0 0 10px;
+}
+
+.policy_container p,
+.policy_container ul {
+    /* display: flex;
+    flex-direction: flex-start; */
+    text-align: left;
+}
+
+.policy_container p {
+    margin: 1rem 0 0;
+
+    text-align: center;
+}
+
+.policy_container ul {
+    margin: 1rem 0 0;
+    list-style: auto;
+    line-height: 2em;
+
+}
+
+.policy_container ul a ,.policy_container a {
+    color: inherit;
+}
+
+.policy_container ul a:hover {
+    text-decoration: underline;
+}
+ .contact-info a{
+    color: var(--green-color);
+
+}
+.text-left{
+    text-align: left !important;
+}
+.text-left a{
+color: var(--green-color);
+}
